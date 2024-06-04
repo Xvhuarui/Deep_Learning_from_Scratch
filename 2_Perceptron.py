@@ -61,3 +61,11 @@ def or_gate2(x1, x2):
         return 0
     else:
         return 1
+
+
+# 2.5.2
+def xor_gate(x1, x2):
+    s1 = nand_gate2(x1, x2)
+    s2 = or_gate2(x1, x2)
+    tmp = and_gate2(s1, s2)
+    return tmp
