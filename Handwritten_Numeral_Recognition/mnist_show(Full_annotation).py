@@ -1,4 +1,5 @@
 # coding: utf-8
+# 该代码为下载mnist数字数据集并测试是否下载成功
 import sys, os  # 用于访问文件夹 sys：System os：Operation System
 sys.path.append(os.pardir)  # 为了导入父目录的文件而进行的设定
 # sys.path：是一个列表list,它里面包含了已经添加到系统的环境变量路径。当我们要添加自己的引用模块搜索目录时，可以通过列表list的append()方法。
